@@ -45,7 +45,7 @@ function Home() {
           <p className="text-white hidden nm:flex nm:text-base px-4 text-sm mt-12 font-orkney w-full nm:px-[5rem]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           <div className="nm:flex hidden nm:mt-10 mt-16 w-full justify-center items-center nm:flex-row nm:space-x-10">
             <button className="bg-gradient-to-r from-edei-100 to-edei-200 hover:from-white hover:to-white text-black font-orkney text-center px-7 nm:px-4 py-4 w-full nm:w-auto  border-2 hover:border-edei-200 rounded-lg">COMPRAR CON FIAT</button>
-            <button className="bg-gradient-to-r from-edei-100 to-edei-200 hover:from-white hover:to-white font-orkney text-center px-4 py-4 border-2 w-full nm:w-auto hover:border-edei-200 rounded-lg">COMPRAR CON CRYPTO</button>
+            <button className="bg-gradient-to-r from-edei-100 to-edei-200 hover:from-white hover:to-white text-black font-orkney text-center px-4 py-4 border-2 w-full nm:w-auto hover:border-edei-200 rounded-lg">COMPRAR CON CRYPTO</button>
           </div>
           <svg className="arrows flex nm:hidden">
             <path className="a1" d="M0 0 L30 32 L60 0" />
