@@ -17,8 +17,8 @@ function Home() {
       <nav className="flexBetween w-full edei-2 font-kooka z-10 p-4 sm:p-2 flex-row ">
         <div className="nm:text-6xl text-3xl nm:ml-[10rem] ml-2 text-white ">EDEI</div>
         <div className="flex flex-row nm:space-x-[3rem] space-x-4 nm:mr-[10rem]">
-          <p className="hidden nm:flex text-edei-200">Twitter</p>
-          <p className="hidden nm:flex text-edei-200">Twitter</p>
+          <p className="hidden cursor-pointer nm:flex text-edei-200">Twitter</p>
+          <p className="hidden cursor-pointer nm:flex text-edei-200">Instagram</p>
           <div className="flex space-x-6 nm:hidden">
             <div>
               <Image src={images.twitter} width={30} height={30} />
