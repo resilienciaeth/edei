@@ -87,9 +87,9 @@ function Home() {
                 <div className="flex flex-col nm:w-[90%] bg-zinc-900 rounded-3xl px-10 py-2 nm:py-0 nm:px-5 nm:mb-10 h-full  items-center justify-center border-2 border-slate-700">
                   <p className="text-xl py-2 font-orkney text-white">Edeidades Disponibles</p>
                   <div className="flex flex-row space-x-5 ">
-                    <p className="text-xl nm:text-3xl rounded-3xl border-2 px-5 py-5 bg-edei-200">1</p>
                     <p className="text-xl nm:text-3xl rounded-3xl border-2 px-5 py-5 bg-edei-200">2</p>
-                    <p className="text-xl nm:text-3xl rounded-3xl border-2 px-5 py-5 bg-edei-200">7</p>
+                    <p className="text-xl nm:text-3xl rounded-3xl border-2 px-5 py-5 bg-edei-200">0</p>
+                    <p className="text-xl nm:text-3xl rounded-3xl border-2 px-5 py-5 bg-edei-200">6</p>
                   </div>
                 </div>
               </div>
