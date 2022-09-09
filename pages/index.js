@@ -54,7 +54,7 @@ function Home() {
         </div>
       </nav>
       <div className="flex edei-2 flex-col nm:flex-row">
-        <div className="nm:w-[50%] h-screen flex-col flex justify-start nm:items-center nm:justify-center items-center ">
+        <div id="medium" className="nm:w-[50%] h-screen flex-col flex justify-start nm:items-center nm:justify-center items-center ">
           <h1 className="font-orkney  nm:flex hidden nm:px-[5rem] px-[3rem] w-full text-white text-2xl nm:text-5xl uppercase ">
             {' '}
             <span className="nm:before:block nm:before:absolute nm:before:-inset-8 nm:before:-skew-y-2 nm:before:bg-gradient-to-r nm:from-edei-100 nm:to-edei-200 nm:relative nm:inline-block">
@@ -74,14 +74,18 @@ function Home() {
             className="arrows flex nm:hidden cursor-pointer"
             handleClick={() => document.getElementById('medium').scrollIntoView({ behavior: 'smooth' })}
           >
-            <path className="a1" d="M0 0 L30 32 L60 0" handleClick={() => document.getElementById('medium').scrollIntoView({ behavior: 'smooth' })} />
+            <path className="a1" d="M0 0 L30 32 L60 0" onClick={() => document.getElementById('medium').scrollIntoView({ behavior: 'smooth' })} />
             <path className="a2" d="M0 20 L30 52 L60 20" handleClick={() => document.getElementById('medium').scrollIntoView({ behavior: 'smooth' })} />
             <path className="a3" d="M0 40 L30 72 L60 40" handleClick={() => document.getElementById('medium').scrollIntoView({ behavior: 'smooth' })} />
           </svg>
           <div className="flex">
             <div className="nm:mt-[2rem] mt-0 flex flex-col rounded-3xl py-10">
               <div className="flex justify-center items-center">
-                <p className="nm:text-xl text-lg  font-orkney text-white">EDEIDADES EN PRE-VENTA: 333/3333</p>
+                <p className="nm:text-xl text-lg  font-orkney text-white">
+                  EDEIDADES EN PREVENTA:
+                  {' '}
+                  <span className="font-bold text-xl text-edei-200">333/3333</span>
+                </p>
               </div>
               <div className="flex mt-6 space-y-4 nm:-space-y-10 flex-col nm:flex-row items-center justify-center w-full nm:space-x-10">
                 <div className="flex flex-col nm:w-[90%] bg-zinc-900 rounded-3xl px-10 py-2 nm:py-0 nm:px-5 nm:mb-10 h-full  items-center justify-center border-2 border-slate-700">
@@ -101,8 +105,8 @@ function Home() {
           <ReactPlayer url="https://www.youtube.com/watch?v=b6nCwY0i1Mg" width={600} height={300} controls="controls" autoPlay="true" />
         </div>
 
-        <div className="w-full h-screen nm:hidden flex flex-col justify-center items-center edei-1">
-          <h1 id="medium" className="font-orkney flex nm:hidden nm:px-[5rem] mb-10 px-[3rem] w-full text-white text-2xl nm:text-6xl uppercase ">
+        <div id="medium" className="w-full h-screen nm:hidden flex flex-col justify-center items-center edei-1">
+          <h1 className="font-orkney flex nm:hidden nm:px-[5rem] mb-10 px-[3rem] w-full text-white text-2xl nm:text-6xl uppercase ">
             {' '}
             <span className="before:block before:absolute before:-inset-8 before:-skew-y-2 before:bg-gradient-to-r from-edei-700 to-edei-700 relative inline-block">
               <span className="relative text-edei-200 font-bold ">BIENVENIDO A EDEI</span>
