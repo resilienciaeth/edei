@@ -65,7 +65,22 @@ function Home() {
             <h1 className="font-orkney mb-2 font-bold text-3xl">BIENVENIDO A EDEI</h1>
             <ReactPlayer url="https://www.youtube.com/watch?v=b6nCwY0i1Mg" width={340} height={200} controls="controls" autoPlay="true" />
           </div>
-          <p className="text-white hidden nm:flex nm:text-base px-4 text-sm mt-12 font-orkney w-full nm:px-[5rem]">EDEI es una comunidad de 3333 personas asociadas a la propiedad intelectual de 3333 NFTs. Estos se llaman Edeidades y por cada uno de ellos que adquieras obtienes: 1 Edeidad, 33 DeBooks y 1 acceso al Festival Soldout, un evento exclusivo para los miembros de la comunidad. Todos son NFTs, por ello puedes disfrutarlos y/o venderlos por separado como diferentes utilitarios.</p>
+          <p className="text-white hidden nm:flex nm:text-base px-4 text-sm mt-12 font-orkney w-full nm:px-[5rem]">EDEI es una comunidad de 3333 personas asociadas a la propiedad intelectual de 3333 Edeidades. Por cada Edeidad precomprada obtienes:</p>
+          <p className="text-white font-bold hidden nm:flex nm:text-base px-4 text-sm mt-6 font-orkney w-full nm:px-[5rem]">
+            +1 Edeidad
+
+          </p>
+          <p className="text-white font-bold hidden nm:flex nm:text-base px-4 text-sm mt-2 font-orkney w-full nm:px-[5rem]">
+
+            +33 debooks
+
+          </p>
+          <p className="text-white font-bold hidden nm:flex nm:text-base px-4 text-sm mt-2 font-orkney w-full nm:px-[5rem]">
+            +1 Ticket al Festival Soldout
+
+          </p>
+          <p className="text-white hidden nm:flex nm:text-base px-4 text-sm mt-6 font-orkney w-full nm:px-[5rem]">Como todo son NFTs, poseeras 35 utilitarios que podrás vender por separado y disfrutarlos.</p>
+          <p className="text-white hidden nm:flex nm:text-base px-4 text-sm mt-6 font-orkney w-full nm:px-[5rem]">Si obtienes 3 Edeidades vas a tener acceso a los 3 roles subculturales existentes: Disruptor, Emprendedor e Inversor.</p>
           <div className="nm:flex hidden nm:mt-10 mt-16 w-full justify-center items-center nm:flex-row nm:space-x-10">
             <button className="bg-gradient-to-r from-edei-100 to-edei-200 hover:from-white hover:to-white text-black font-orkney text-center font-bold px-7 nm:px-4 py-4 w-full nm:w-auto  border-2 hover:border-edei-200 rounded-lg">ACCEDER A EDEI (EUROS)</button>
             <button className="bg-gradient-to-r from-edei-100 to-edei-200 hover:from-white hover:to-white text-black font-orkney font-bold text-center px-4 py-4 border-2 w-full nm:w-auto hover:border-edei-200 rounded-lg">ACCEDER A EDEI (CRYPTO)</button>
@@ -84,16 +99,16 @@ function Home() {
                 <p className="nm:text-xl text-lg  font-orkney text-white">
                   EDEIDADES EN PREVENTA:
                   {' '}
-                  <span className="font-bold text-xl text-edei-200">333/3333</span>
+                  <span className="font-negrita text-2xl  text-edei-200">333/3333</span>
                 </p>
               </div>
               <div className="flex mt-6 space-y-4 nm:-space-y-10 flex-col nm:flex-row items-center justify-center w-full nm:space-x-10">
                 <div className="flex flex-col nm:w-[90%] bg-zinc-900 rounded-3xl px-10 py-2 nm:py-0 nm:px-5 nm:mb-10 h-full  items-center justify-center border-2 border-slate-700">
                   <p className="text-xl py-2 font-orkney text-white">Edeidades Disponibles</p>
                   <div className="flex flex-row space-x-5 ">
-                    <p className="text-xl nm:text-3xl rounded-3xl border-2 px-5 py-5 bg-edei-200">2</p>
-                    <p className="text-xl nm:text-3xl rounded-3xl border-2 px-5 py-5 bg-edei-200">0</p>
-                    <p className="text-xl nm:text-3xl rounded-3xl border-2 px-5 py-5 bg-edei-200">6</p>
+                    <p className="text-3xl font-bold nm:text-5xl rounded-3xl border-2 px-5 py-5 bg-edei-200">2</p>
+                    <p className="text-3xl nm:text-5xl rounded-3xl border-2 px-5 py-5 font-bold bg-edei-200">0</p>
+                    <p className="text-3xl font-bold nm:text-5xl rounded-3xl border-2 px-5 py-5 bg-edei-200">3</p>
                   </div>
                 </div>
               </div>
@@ -112,7 +127,12 @@ function Home() {
               <span className="relative text-edei-200 font-bold ">BIENVENIDO A EDEI</span>
             </span>
           </h1>
-          <p className="text-black nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">EDEI es una comunidad de 3333 personas asociadas a la propiedad intelectual de 3333 NFTs. Estos se llaman Edeidades y por cada uno de ellos que adquieras obtienes: 1 Edeidad, 33 DeBooks y 1 acceso al Festival Soldout, un evento exclusivo para los miembros de la comunidad. Todos son NFTs, por ello puedes disfrutarlos y/o venderlos por separado como diferentes utilitarios.</p>
+          <p className="text-black nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">EDEI es una comunidad de 3333 personas asociadas a la propiedad intelectual de 3333 Edeidades. Por cada Edeidad precomprada obtienes:</p>
+          <p className="text-black nm:hidden flex nm:text-base px-4 text-sm mt-5 font-orkney w-full nm:px-[5rem]">+1 Edeidad</p>
+          <p className="text-black nm:hidden flex nm:text-base px-4 text-sm mt-5 font-orkney w-full nm:px-[5rem]">+33 debooks</p>
+          <p className="text-black nm:hidden flex nm:text-base px-4 text-sm mt-5 font-orkney w-full nm:px-[5rem]">+1 Ticket al Festival Soldout</p>
+          <p className="text-black nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">Como todo son NFTs, poseeras 35 utilitarios que podrás vender por separado y disfrutarlos.</p>
+          <p className="text-black nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">Si obtienes 3 Edeidades vas a tener acceso a los 3 roles subculturales existentes: Disruptor, Emprendedor e Inversor.</p>
           <div className="flex nm:hidden nm:mt-10 mt-16 w-full px-8 space-y-4 justify-center items-center flex-col nm:space-x-10">
             <button className="bg-gradient-to-r text-white hover:text-black from-edei-500 to-edei-700 hover:from-white hover:to-white font-orkney text-center px-7 nm:px-4 py-4 w-full  border-2 hover:border-edei-200 rounded-lg">ACCEDER A EDEI (EUROS) </button>
             <button className="bg-gradient-to-r text-white hover:text-black from-edei-500 to-edei-700 hover:from-white hover:to-white font-orkney text-center px-4 py-4 border-2 w-full hover:border-edei-200 rounded-lg">ACCEDER A EDEI  (CRYPTO)</button>
