@@ -40,8 +40,7 @@ function Home() {
             </span>
           </h1>
           <div className="flex mt-[4rem] nm:hidden items-center text-edei-200 justify-center flex-col">
-            <h1 className="font-orkney font-bold text-4xl">WTF IS EDEI?</h1>
-            <p className="text-sm">Este video es todo lo que necesitas para entender EDEI</p>
+            <h1 className="font-orkney mb-2 font-bold text-3xl">BIENVENIDO A EDEI</h1>
             <ReactPlayer url="https://www.youtube.com/watch?v=b6nCwY0i1Mg" width={340} height={200} controls="controls" autoPlay="true" />
           </div>
           <p className="text-white hidden nm:flex nm:text-base px-4 text-sm mt-12 font-orkney w-full nm:px-[5rem]">EDEI es una comunidad de 3333 personas asociadas a la propiedad intelectual de 3333 NFTs. Estos se llaman Edeidades y por cada uno de ellos que adquieras obtienes: 1 Edeidad, 33 DeBooks y 1 acceso al Festival Soldout, un evento exclusivo para los miembros de la comunidad. Todos son NFTs, por ello puedes disfrutarlos y/o venderlos por separado como diferentes utilitarios.</p>
@@ -50,7 +49,7 @@ function Home() {
             <button className="bg-gradient-to-r from-edei-100 to-edei-200 hover:from-white hover:to-white text-black font-orkney font-bold text-center px-4 py-4 border-2 w-full nm:w-auto hover:border-edei-200 rounded-lg">ACCEDER A EDEI (CRYPTO)</button>
           </div>
           <svg
-            className="arrows flex nm:hidden"
+            className="arrows flex nm:hidden cursor-pointer"
             handleClick={() => document.getElementById('medium').scrollIntoView({ behavior: 'smooth' })}
           >
             <path className="a1" d="M0 0 L30 32 L60 0" handleClick={() => document.getElementById('medium').scrollIntoView({ behavior: 'smooth' })} />
@@ -81,12 +80,12 @@ function Home() {
           </div>
         </div>
         <div className="nm:w-[50%] space-y-5 hidden h-screen nm:flex flex-col justify-center items-center edei-1">
-          <p className="text-sm typing-demo">Este video es todo lo que necesitas para entender EDEI.</p>
+          <p className="text-sm  typing-demo">Este video es todo lo que necesitas para entender EDEI.</p>
           <ReactPlayer url="https://www.youtube.com/watch?v=b6nCwY0i1Mg" width={600} height={300} controls="controls" autoPlay="true" />
         </div>
 
-        <div id="medium" className="w-full h-screen nm:hidden flex flex-col justify-center items-center edei-1">
-          <h1 className="font-orkney flex nm:hidden nm:px-[5rem] mb-10 px-[3rem] w-full text-white text-2xl nm:text-6xl uppercase ">
+        <div className="w-full h-screen nm:hidden flex flex-col justify-center items-center edei-1">
+          <h1 id="medium" className="font-orkney flex nm:hidden nm:px-[5rem] mb-10 px-[3rem] w-full text-white text-2xl nm:text-6xl uppercase ">
             {' '}
             <span className="before:block before:absolute before:-inset-8 before:-skew-y-2 before:bg-gradient-to-r from-edei-700 to-edei-700 relative inline-block">
               <span className="relative text-edei-200 font-bold ">BIENVENIDO A EDEI</span>
