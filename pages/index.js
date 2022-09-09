@@ -19,14 +19,36 @@ function Home() {
       <nav className="flexBetween bg-transparent w-full edei-2 font-kooka z-10 p-4 sm:p-2 flex-row ">
         <div className="nm:text-6xl text-3xl nm:ml-[10rem] ml-2 text-white ">EDEI</div>
         <div className="flex flex-row nm:space-x-[3rem] space-x-4 nm:mr-[10rem]">
-          <p className="hidden cursor-pointer nm:flex text-edei-200">Twitter</p>
-          <p className="hidden cursor-pointer nm:flex text-edei-200">Instagram</p>
+          <p
+            className="hidden cursor-pointer nm:flex text-edei-200"
+            onClick={() => window.open('https://twitter.com/edeiNFT')}
+          >
+            Twitter
+
+          </p>
+          <p
+            className="hidden cursor-pointer nm:flex text-edei-200"
+            onClick={() => window.open('https://instagram.com/edei.io')}
+          >
+            Instagram
+
+          </p>
           <div className="flex space-x-6 nm:hidden">
             <div>
-              <Image src={images.twitter} width={30} height={30} />
+              <Image
+                src={images.twitter}
+                width={30}
+                height={30}
+                onClick={() => window.open('https://twitter.com/edeiNFT')}
+              />
             </div>
             <div>
-              <Image src={images.instagram} width={30} height={30} />
+              <Image
+                src={images.instagram}
+                width={30}
+                height={30}
+                onClick={() => window.open('https://instagram.com/edei.io')}
+              />
             </div>
           </div>
         </div>
@@ -57,22 +79,17 @@ function Home() {
             <path className="a3" d="M0 40 L30 72 L60 40" handleClick={() => document.getElementById('medium').scrollIntoView({ behavior: 'smooth' })} />
           </svg>
           <div className="flex">
-            <div className="nm:mt-[4rem] mt-0 flex flex-row rounded-3xl py-10">
-              <div className="flex space-y-4 nm:-space-y-10 flex-col nm:flex-row items-center justify-center w-full nm:space-x-10">
-                <div className="flex flex-col nm:w-[50%] bg-zinc-900 rounded-3xl px-10 py-2 nm:py-0 nm:px-5 nm:mb-10 h-full  items-center justify-center border-2 border-slate-700">
-                  <p className="text-xl py-2 text-white">Edeidades Vendidas</p>
-                  <div className="flex flex-row space-x-5 nm:px-5 ">
+            <div className="nm:mt-[2rem] mt-0 flex flex-col rounded-3xl py-10">
+              <div className="flex justify-center items-center">
+                <p className="nm:text-xl text-lg  font-orkney text-white">EDEIDADES EN PRE-VENTA: 333/3333</p>
+              </div>
+              <div className="flex mt-6 space-y-4 nm:-space-y-10 flex-col nm:flex-row items-center justify-center w-full nm:space-x-10">
+                <div className="flex flex-col nm:w-[90%] bg-zinc-900 rounded-3xl px-10 py-2 nm:py-0 nm:px-5 nm:mb-10 h-full  items-center justify-center border-2 border-slate-700">
+                  <p className="text-xl py-2 font-orkney text-white">Edeidades Disponibles</p>
+                  <div className="flex flex-row space-x-5 ">
                     <p className="text-xl nm:text-3xl rounded-3xl border-2 px-5 py-5 bg-edei-200">1</p>
                     <p className="text-xl nm:text-3xl rounded-3xl border-2 px-5 py-5 bg-edei-200">2</p>
                     <p className="text-xl nm:text-3xl rounded-3xl border-2 px-5 py-5 bg-edei-200">7</p>
-                  </div>
-                </div>
-                <div className="flex flex-col nm:w-[50%] px-10 py-2 nm:py-0 bg-zinc-900 border-2 border-slate-700 rounded-3xl nm:px-5 nm:mb-10 h-full  items-center justify-center">
-                  <p className="text-xl py-2 text-white">Edeidades Total</p>
-                  <div className="flex flex-row space-x-5 nm:px-5 ">
-                    <p className="text-xl nm:text-3xl text-edei-200  rounded-3xl border-2 px-5 py-5 bg-black">3</p>
-                    <p className="text-xl nm:text-3xl rounded-3xl border-2 px-5 py-5 bg-black text-edei-200">3</p>
-                    <p className="text-xl nm:text-3xl rounded-3xl border-2 px-5 py-5 bg-black text-edei-200">3</p>
                   </div>
                 </div>
               </div>
