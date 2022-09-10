@@ -17,7 +17,7 @@ function Home() {
   return (
     <div className="w-screen h-screen">
       <nav className="flexBetween bg-transparent w-full edei-2 font-kooka z-10 p-4 sm:p-2 flex-row ">
-        <div className="nm:text-6xl text-3xl nm:ml-[10rem] ml-2 text-white ">EDEI</div>
+        <div className="nm:text-6xl text-3xl nm:ml-[10rem] ml-2 text-white cursor-pointer " onClick={() => '/'}>EDEI</div>
         <div className="flex flex-row nm:space-x-[3rem] space-x-4 nm:mr-[10rem]">
           <p
             className="hidden cursor-pointer nm:flex text-edei-200"
@@ -138,13 +138,11 @@ function Home() {
           <p className="text-black nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">Como todo son NFTs, poseeras 35 utilitarios que podrás vender por separado y disfrutarlos.</p>
           <p className="text-black nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">Si obtienes 3 Edeidades vas a tener acceso a los 3 roles subculturales existentes: Disruptor, Emprendedor e Inversor.</p>
           <div className="flex nm:hidden nm:mt-10 mt-16 w-full px-8 space-y-4 justify-center items-center flex-col nm:space-x-10">
-            <button className="bg-gradient-to-r text-white hover:text-black from-edei-500 to-edei-700 hover:from-white hover:to-white font-orkney text-center px-7 nm:px-4 py-4 w-full  border-2 hover:border-edei-200 rounded-lg" onClick={() => window.open('/crypto')}>
+            <button className="bg-gradient-to-r text-white hover:text-black from-edei-500 to-edei-700 hover:from-white hover:to-white font-orkney text-center px-7 nm:px-4 py-4 w-full  border-2 hover:border-edei-200 rounded-lg" onClick={() => window.open('/fiat')}>
               ACCEDER A EDEI (EUROS)
-
             </button>
             <button className="bg-gradient-to-r text-white hover:text-black from-edei-500 to-edei-700 hover:from-white hover:to-white font-orkney text-center px-4 py-4 border-2 w-full hover:border-edei-200 rounded-lg" onClick={() => window.open('/crypto')}>
               ACCEDER A EDEI (CRYPTO)
-
             </button>
           </div>
         </div>

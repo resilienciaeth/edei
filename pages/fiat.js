@@ -11,7 +11,7 @@ const fiat = () => (
   <div className="w-screen h-screen">
     {/* Navbar */}
     <nav className="flexBetween bg-transparent w-full edei-2 font-kooka z-10 p-4 sm:p-2 flex-row ">
-      <div className="nm:text-6xl text-3xl nm:ml-[10rem] ml-2 text-white ">EDEI</div>
+      <div className="nm:text-6xl text-3xl nm:ml-[10rem] ml-2 text-white cursor-pointer" onClick={() => window.open('/', '_self')}>EDEI</div>
       <div className="flex flex-row nm:space-x-[3rem] space-x-4 nm:mr-[10rem]">
         <p
           className="hidden cursor-pointer nm:flex text-edei-200"
