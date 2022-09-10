@@ -143,7 +143,7 @@ function Home() {
 
             </button>
             <button className="bg-gradient-to-r text-white hover:text-black from-edei-500 to-edei-700 hover:from-white hover:to-white font-orkney text-center px-4 py-4 border-2 w-full hover:border-edei-200 rounded-lg" onClick={() => window.open('/crypto')}>
-              ACCEDER A EDEI (EUROS)
+              ACCEDER A EDEI (CRYPTO)
 
             </button>
           </div>
