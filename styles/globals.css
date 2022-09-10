@@ -110,6 +110,13 @@
     background: linear-gradient(130deg, rgba(46,46,46,1) 2%, rgba(0,0,0,1) 100%);
 }
 
+.font-negrita {
+font-family: 'Kooka';
+src: url('/fonts/kooka/Kooka-Bold.ttf');
+font-weight: 700;
+font-style: bold;
+}
+
 .arrows {
     width: 60px;
     height: 72px;
@@ -122,6 +129,24 @@
   
   .arrows path {
     stroke: #CDC1FF;
+    fill: transparent;
+    stroke-width: 1px;  
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite; 
+  }
+
+  .arrows-mobile {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 0px;
+    top: 650px;
+  }
+  
+  .arrows-mobile path {
+    stroke: #000000;
     fill: transparent;
     stroke-width: 1px;  
     animation: arrow 2s infinite;
@@ -176,6 +201,13 @@
     min-width: 100px;
     transition: .5s ease
 
+}
+
+
+@media (min-width: 1300px) {
+    .nm\:edei-2 {
+        background: linear-gradient(130deg, rgba(46,46,46,1) 2%, rgba(0,0,0,1) 100%);
+    }
 }
 
 .client:hover {
