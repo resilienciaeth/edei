@@ -62,7 +62,7 @@ const fiat = () => (
         <p className="text-black font-bold hidden nm:flex nm:text-base px-4 text-sm mt-2 font-orkney w-full nm:px-[5rem]">
           Recuerda que puedes adquirir varias Edeidades modificando la cantidad.
         </p>
-        <p className="text-blackfont-bold hidden nm:flex nm:text-base px-4 text-sm mt-5 font-orkney w-full nm:px-[5rem]">
+        <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-5 font-orkney w-full nm:px-[5rem]">
           2. Enviar un email a 3D3E3I@gmail.com con la captura del pago.
 
         </p>
