@@ -58,7 +58,7 @@ const crypto = () => (
           </span>
         </h1>
         <div className="flex mt-[10rem] nm:hidden items-center text-edei-200 justify-center flex-col">
-          <h1 className="font-orkney mb-2 font-bold text-black text-xl">COMO COMPRAR CON CRYPTO </h1>
+          <h1 className=" mb-2 font-bold text-black text-xl">COMO COMPRAR CON CRYPTO </h1>
           <ReactPlayer url="https://www.youtube.com/watch?v=nDD0PsLSXBI&feature=youtu.be" width={340} height={200} controls="controls" autoPlay="true" />
         </div>
         <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-20 font-orkney w-full nm:px-[5rem]">1. Enviar 375 USDT por cada Edeidad que quieras adquirir a la wallet superior. </p>
