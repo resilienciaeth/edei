@@ -15,7 +15,7 @@ function Home() {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className="w-screen h-screen">
+    <div className="w-screen ">
       <nav className="flexBetween bg-transparent w-full edei-2 font-kooka z-10 p-4 sm:p-2 flex-row ">
         <div className="nm:text-6xl text-3xl nm:ml-[10rem] ml-2 text-white cursor-pointer " onClick={() => '/'}>EDEI</div>
         <div className="flex flex-row nm:space-x-[3rem] space-x-4 nm:mr-[10rem]">
@@ -122,7 +122,7 @@ function Home() {
           <p className="text-sm  typing-demo">Este video es todo lo que necesitas para entender EDEI.</p>
           <ReactPlayer url="https://www.youtube.com/watch?v=b6nCwY0i1Mg" width={600} height={300} controls="controls" autoPlay="true" />
         </div>
-        <div id="medium" className="w-full h-screen nm:hidden flex flex-col justify-center items-center edei-1 mt-[8rem]">
+        <div id="medium" className="w-full h-auto nm:hidden flex flex-col justify-center items-center edei-1 mt-[8rem]">
           <h1 className="font-orkney mt-[7rem]  flex nm:hidden nm:px-[5rem] mb-10 px-[3rem] w-full text-white text-2xl nm:text-6xl uppercase ">
             {' '}
             <span className="before:block before:absolute before:-inset-8 before:-skew-y-2 before:bg-gradient-to-r from-edei-700 to-edei-700 relative inline-block">
