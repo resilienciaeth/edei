@@ -58,15 +58,15 @@ const fiat = () => (
           <h1 className="font-orkney mb-2 font-bold text-black text-xl">COMO COMPRAR CON EUROS </h1>
           <ReactPlayer url="https://www.youtube.com/watch?v=KmolGppbniY" width={340} height={200} controls="controls" autoPlay="true" />
         </div>
-        <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-20 font-orkney w-full nm:px-[5rem]">1. Aquiere tu EDEIDAD desde el botón superior.</p>
+        <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-20 font-orkney w-full nm:px-[5rem]">1. Adquiere tu EDEIDAD desde el botón superior.</p>
         <p className="text-black font-bold hidden nm:flex nm:text-base px-4 text-sm mt-2 font-orkney w-full nm:px-[5rem]">
           Recuerda que puedes adquirir varias Edeidades modificando la cantidad.
         </p>
         <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-5 font-orkney w-full nm:px-[5rem]">
-          2. Enviar un email a 3D3E3I@gmail.com con la captura del pago.
+          2. Envía un email a 3D3E3I@gmail.com con la captura del pago.
 
         </p>
-        <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-6 font-orkney w-full nm:px-[5rem]">3. En un plazo de 24 horas recibiras nuestra respuesta y el acceso a la comunidad.</p>
+        <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-6 font-orkney w-full nm:px-[5rem]">3. En un plazo de 24 horas recibirás nuestra respuesta y el acceso a la comunidad.</p>
 
         <svg
           className="arrows-mobile flex nm:hidden cursor-pointer"
@@ -78,7 +78,7 @@ const fiat = () => (
       </div>
       {/* Lado derecho desktop */}
       <div className="nm:w-[50%] space-y-5 hidden h-screen nm:flex flex-col justify-center items-center edei-2">
-        <p className="text-sm text-white">Descubre las ventajas de comprar con Crypto</p>
+        <p className="text-sm text-white">Descubre las ventajas de comprar con Euros</p>
         <ReactPlayer url="https://www.youtube.com/watch?v=KmolGppbniY" width={600} height={300} controls="controls" autoPlay="true" />
       </div>
       {/* parte baja mobile */}

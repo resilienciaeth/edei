@@ -53,7 +53,7 @@ function Home() {
           </div>
         </div>
       </nav>
-      <div className="flex edei-2 flex-col nm:flex-row">
+      <div className="flex edei-2 flex-col nm:flex-row h-screen">
         <div id="medium" className="nm:w-[50%] h-screen nm:mt-[2rem] flex-col flex justify-start nm:items-center nm:justify-center items-center">
           <h1 className="font-orkney  nm:flex hidden nm:px-[5rem] px-[3rem] w-full text-white text-2xl nm:text-5xl uppercase ">
             {' '}
@@ -62,7 +62,6 @@ function Home() {
             </span>
           </h1>
           <div className="flex mt-[4rem] nm:hidden items-center text-edei-200 justify-center flex-col">
-            <h1 className="font-orkney mb-2 font-bold text-3xl">BIENVENIDO A EDEI</h1>
             <ReactPlayer url="https://www.youtube.com/watch?v=b6nCwY0i1Mg" width={340} height={200} controls="controls" autoPlay="true" />
           </div>
           <p className="text-white hidden nm:flex nm:text-sm px-4 text-sm mt-12 font-orkney w-full nm:px-[5rem]">EDEI es una comunidad de 3333 personas asociadas a la propiedad intelectual de 3333 Edeidades. Por cada Edeidad precomprada obtienes:</p>
@@ -80,7 +79,7 @@ function Home() {
           </p>
           <p className="text-white hidden nm:flex nm:text-sm px-4 text-sm mt-6 font-orkney w-full nm:px-[5rem]">Como todo son NFTs, poseeras 35 utilitarios que podrás vender por separado y disfrutarlos.</p>
           <p className="text-white hidden nm:flex nm:text-sm px-4 text-sm mt-6 font-orkney w-full nm:px-[5rem]">Si obtienes 3 Edeidades vas a tener acceso a los 3 roles subculturales existentes: Disruptor, Emprendedor e Inversor.</p>
-          <div className="nm:flex hidden nm:mt-2 mt-16 w-full justify-center items-center nm:flex-row nm:space-x-10">
+          <div className="nm:flex hidden nm:mt-10 mt-16 w-full justify-center items-center nm:flex-row nm:space-x-10">
             <button className="bg-gradient-to-r from-edei-100 to-edei-200 hover:from-white hover:to-white text-black font-orkney text-center font-bold px-7 nm:px-4 py-4 w-full nm:w-auto  border-2 hover:border-edei-200 rounded-lg" onClick={() => window.open('/fiat')}>
               ACCEDER A EDEI (EUROS)
             </button>
@@ -103,7 +102,7 @@ function Home() {
                 <p className="nm:text-xl text-lg  font-orkney text-white">
                   EDEIDADES EN PREVENTA:
                   {' '}
-                  <span className="font-negrita text-2xl  text-edei-200">333/3333</span>
+                  <span className="font-bold text-2xl  text-edei-200">333/3333</span>
                 </p>
               </div>
               <div className="flex mt-6 flex-col nm:flex-row items-center justify-center w-full">
@@ -123,9 +122,8 @@ function Home() {
           <p className="text-sm  typing-demo">Este video es todo lo que necesitas para entender EDEI.</p>
           <ReactPlayer url="https://www.youtube.com/watch?v=b6nCwY0i1Mg" width={600} height={300} controls="controls" autoPlay="true" />
         </div>
-
-        <div id="medium" className="w-full h-screen nm:hidden flex flex-col justify-center items-center edei-1">
-          <h1 className="font-orkney flex nm:hidden nm:px-[5rem] mb-10 px-[3rem] w-full text-white text-2xl nm:text-6xl uppercase ">
+        <div id="medium" className="w-full h-screen nm:hidden flex flex-col justify-center items-center edei-1 mt-[8rem]">
+          <h1 className="font-orkney mt-[7rem]  flex nm:hidden nm:px-[5rem] mb-10 px-[3rem] w-full text-white text-2xl nm:text-6xl uppercase ">
             {' '}
             <span className="before:block before:absolute before:-inset-8 before:-skew-y-2 before:bg-gradient-to-r from-edei-700 to-edei-700 relative inline-block">
               <span className="relative text-edei-200 font-bold ">BIENVENIDO A EDEI</span>
@@ -137,7 +135,7 @@ function Home() {
           <p className="text-black nm:hidden flex nm:text-base px-4 text-sm mt-5 font-orkney w-full nm:px-[5rem]">+1 Ticket al Festival Soldout</p>
           <p className="text-black nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">Como todo son NFTs, poseeras 35 utilitarios que podrás vender por separado y disfrutarlos.</p>
           <p className="text-black nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">Si obtienes 3 Edeidades vas a tener acceso a los 3 roles subculturales existentes: Disruptor, Emprendedor e Inversor.</p>
-          <div className="flex nm:hidden nm:mt-10 mt-16 w-full px-8 space-y-4 justify-center items-center flex-col nm:space-x-10">
+          <div className="flex nm:hidden nm:mt-10 mt-16 w-full px-8 space-y-4 justify-center items-center flex-col nm:space-x-10 mb-[3rem]">
             <button className="bg-gradient-to-r text-white hover:text-black from-edei-500 to-edei-700 hover:from-white hover:to-white font-orkney text-center px-7 nm:px-4 py-4 w-full  border-2 hover:border-edei-200 rounded-lg" onClick={() => window.open('/fiat')}>
               ACCEDER A EDEI (EUROS)
             </button>

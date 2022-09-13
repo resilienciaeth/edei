@@ -54,28 +54,29 @@ const crypto = () => (
         <h1 className="font-orkney  nm:flex hidden nm:px-[5rem] px-[3rem] w-full text-white text-2xl nm:text-5xl uppercase ">
           {' '}
           <span className="nm:before:block text-center nm:before:absolute nm:before:-inset-8 nm:before:-skew-y-2 nm:before:bg-gradient-to-r nm:from-edei-500 nm:to-edei-700 nm:relative nm:inline-block">
-            <span className="relative text-edei-200 font-bold ">EDEI WALLET: 3d3e3i.eth</span>
+            <span className="relative text-lg text-edei-200 font-bold ">EDEI WALLET: 0xbCfd3ba49A503f051bC5fE06d79C1B8Af8f91A0c</span>
           </span>
         </h1>
         <div className="flex mt-[10rem] nm:hidden items-center text-edei-200 justify-center flex-col">
           <h1 className=" mb-2 font-bold text-black text-xl">COMO COMPRAR CON CRYPTO </h1>
           <ReactPlayer url="https://www.youtube.com/watch?v=nDD0PsLSXBI&feature=youtu.be" width={340} height={200} controls="controls" autoPlay="true" />
         </div>
-        <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-20 font-orkney w-full nm:px-[5rem]">1. Enviar 375 USDT por cada Edeidad que quieras adquirir a la wallet superior. </p>
+        <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-20 font-orkney w-full nm:px-[5rem]">1. Envía 375 USDT por cada Edeidad que quieras adquirir a la wallet superior.</p>
         <p className="text-black font-bold hidden nm:flex nm:text-base px-4 text-sm mt-2 font-orkney w-full nm:px-[5rem]">
-          Tambien puedes usar la dirección completa: 0xbCfd3ba49A503f051bC5fE06d79C1B8Af8f91A0c)
+        1 Edeidad -> 375 USDT : 3 Edeidades -> 1125 USDT : 10 Edeidades -> 3750 USDT (esta frase revisa si te gusta y si la meterías sino no la metemos).
 
         </p>
         <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-2 font-orkney w-full nm:px-[5rem]">
 
-          Por favor, solo enviar USDT y utilizar la red ERC20
+        Por favor, sólo enviar USDT y utilizar la red ERC20.
 
         </p>
         <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-5 font-orkney w-full nm:px-[5rem]">
-          2. Enviar un email a 3D3E3I@gmail.com con la captura del pago.
+        2. Envía un email a 3D3E3I@gmail.com con la captura del pago.
+
 
         </p>
-        <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-6 font-orkney w-full nm:px-[5rem]">3. En un plazo de 24 horas recibiras nuestra respuesta y el acceso a la comunidad.</p>
+        <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-6 font-orkney w-full nm:px-[5rem]">3. En un plazo de 24 horas recibirás nuestra respuesta y el acceso a la comunidad.</p>
 
         <svg
           className="arrows-mobile flex nm:hidden cursor-pointer"
