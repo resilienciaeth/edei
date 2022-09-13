@@ -93,25 +93,24 @@ const crypto = () => (
       </div>
       {/* parte baja mobile */}
       <div id="medium" className="w-full h-screen nm:hidden flex flex-col justify-center items-center edei-2">
-        <h1 className="font-orkney text-center flex nm:hidden nm:px-[5rem] mb-10 px-[3rem] w-full text-white text-2xl nm:text-6xl uppercase ">
+        <h1 className="font-orkney text-center flex nm:hidden nm:px-[5rem] px-0 mb-10 w-full text-white text-2xl nm:text-6xl uppercase ">
           {' '}
-          <span className="before:block before:absolute before:-inset-8 before:-skew-y-2 before:bg-gradient-to-r from-edei-100 to-edei-200 relative inline-block">
-            <span className="relative text-black font-bold ">
+          <span className="before:block before:absolute before:-inset-2 before:-skew-y-2 before:bg-gradient-to-r from-edei-100 to-edei-200 relative inline-block">
+            <span className="relative text-black font-bold text-xs ">
               EDEI WALLET:
               {' '}
-              <span className="font-bold text-black">3d3e3i.eth</span>
+              <span className="font-bold text-black text-xs">0xbCfd3ba49A503f051bC5fE06d79C1B8Af8f91A0c</span>
               {' '}
             </span>
           </span>
         </h1>
-        <p className="text-white nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">1. Enviar 375 USDT por cada Edeidad que quieras adquirir a la wallet superior. </p>
+        <p className="text-white nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">1. Envía 375 USDT por cada Edeidad que quieras adquirir a la wallet superior.</p>
         <p className="text-white nm:hidden flex nm:text-base px-4 text-sm mt-5 font-orkney w-full nm:px-[5rem]">
-          Tambien puedes usar la dirección completa:
-          0xbCfd3ba49A503f051bC5fE06d79C1B8Af8f91A0c
+        1 Edeidad -> 375 USDT : 3 Edeidades -> 1125 USDT : 10 Edeidades -> 3750 USDT (esta frase revisa si te gusta y si la meterías sino no la metemos).
         </p>
         <p className="text-white nm:hidden flex nm:text-base px-4 text-sm mt-5 font-orkney w-full nm:px-[5rem]">Por favor, solo enviar USDT y utilizar la red ERC20</p>
-        <p className="text-white nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">2. Enviar un email a 3D3E3I@gmail.com con la captura del pago.</p>
-        <p className="text-white nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">3. En un plazo de 24 horas recibiras nuestra respuesta y el acceso a la comunidad.</p>
+        <p className="text-white nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">2. Envía un email a 3D3E3I@gmail.com con la captura del pago.</p>
+        <p className="text-white nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">3. En un plazo de 24 horas recibirás nuestra respuesta y el acceso a la comunidad.</p>
         <div className="flex nm:hidden nm:mt-10 mt-16 w-full px-8 space-y-4 justify-center items-center flex-col nm:space-x-10" />
       </div>
     </div>
