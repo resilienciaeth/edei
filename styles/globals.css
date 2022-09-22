@@ -372,6 +372,26 @@ client:hover .client-description{
     align-items: flex-start;
 }
 
+.coming-soon {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.day,.hour,.minute,.second {
+    
+}
+
 
 
 @keyframes fadeIn {

@@ -1,5 +1,4 @@
 import Navbar from './Navbar';
+import Countdown from './Countdown';
 
-
-
-export ( Navbar );
+export default (Navbar, Countdown);
