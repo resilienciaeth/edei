@@ -48,7 +48,7 @@ function Countdown() {
             <h3 className="text-base mt-2">Minutos</h3>
           </div>
           <div className="container-second">
-            <div className="second text-xl  nm:text-xl rounded-3xl border-2 py-5 bg-edei-200">
+            <div className="second text-xl font-bold  nm:text-xl rounded-3xl border-2 py-5 bg-edei-200">
               <h3 className="second ">{seconds}</h3>
             </div>
             <h3 className="text-[0.93rem] mt-2">Segundos</h3>
