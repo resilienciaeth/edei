@@ -51,7 +51,7 @@ const crypto = () => (
     <div className="flex edei-1 flex-col nm:flex-row">
       {/* Lado izquierdo desktop */}
       <div id="medium" className="nm:w-[50%] h-screen flex-col flex justify-start nm:items-center nm:justify-center items-center ">
-        <h1 className="font-orkney  nm:flex hidden nm:px-[5rem] px-[3rem] w-full text-white text-2xl nm:text-5xl uppercase ">
+        <h1 className="font-orkney  nm:flex hidden nm:px-[5rem] px-[3rem] w-full text-white text-2xl nm:text-5xl">
           {' '}
           <span className="nm:before:block text-center nm:before:absolute nm:before:-inset-8 nm:before:-skew-y-2 nm:before:bg-gradient-to-r nm:from-edei-500 nm:to-edei-700 nm:relative nm:inline-block">
             <span className="relative text-lg text-edei-200 font-bold ">EDEI WALLET: 0xbCfd3ba49A503f051bC5fE06d79C1B8Af8f91A0c</span>
@@ -93,7 +93,7 @@ const crypto = () => (
       </div>
       {/* parte baja mobile */}
       <div id="medium" className="w-full h-screen nm:hidden flex flex-col justify-center items-center edei-2">
-        <h1 className="font-orkney text-center flex nm:hidden nm:px-[5rem] px-0 mb-10 w-full text-white text-2xl nm:text-6xl uppercase ">
+        <h1 className="font-orkney text-center flex nm:hidden nm:px-[5rem] px-0 mb-10 w-full text-white text-2xl nm:text-6xl ">
           {' '}
           <span className="before:block before:absolute before:-inset-2 before:-skew-y-2 before:bg-gradient-to-r from-edei-100 to-edei-200 relative inline-block">
             <span className="relative text-black font-bold text-xs ">
