@@ -63,7 +63,7 @@ const crypto = () => (
         </div>
         <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-20 font-orkney w-full nm:px-[5rem]">1. Envía 375 USDT por cada Edeidad que quieras adquirir a la wallet superior.</p>
         <p className="text-black font-bold hidden nm:flex nm:text-base px-4 text-sm mt-2 font-orkney w-full nm:px-[5rem]">
-        1 Edeidad -> 375 USDT : 3 Edeidades -> 1125 USDT : 10 Edeidades -> 3750 USDT (esta frase revisa si te gusta y si la meterías sino no la metemos).
+        1 Edeidad -> 375 USDT : 3 Edeidades -> 1125 USDT : 10 Edeidades -> 3750 USDT.
 
         </p>
         <p className="text-black hidden nm:flex nm:text-base px-4 text-sm mt-2 font-orkney w-full nm:px-[5rem]">
@@ -106,7 +106,7 @@ const crypto = () => (
         </h1>
         <p className="text-white nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">1. Envía 375 USDT por cada Edeidad que quieras adquirir a la wallet superior.</p>
         <p className="text-white nm:hidden flex nm:text-base px-4 text-sm mt-5 font-orkney w-full nm:px-[5rem]">
-        1 Edeidad -> 375 USDT : 3 Edeidades -> 1125 USDT : 10 Edeidades -> 3750 USDT (esta frase revisa si te gusta y si la meterías sino no la metemos).
+        1 Edeidad -> 375 USDT : 3 Edeidades -> 1125 USDT : 10 Edeidades -> 3750 USDT.
         </p>
         <p className="text-white nm:hidden flex nm:text-base px-4 text-sm mt-5 font-orkney w-full nm:px-[5rem]">Por favor, solo enviar USDT y utilizar la red ERC20</p>
         <p className="text-white nm:hidden flex nm:text-base px-4 text-sm mt-10 font-orkney w-full nm:px-[5rem]">2. Envía un email a 3D3E3I@gmail.com con la captura del pago.</p>
