@@ -6,6 +6,7 @@ import discord from './discord.png';
 import facebook from './facebook.png';
 import tiktok from './tiktok.png';
 import youtube from './youtube.png';
+import logoedei from './logoedei.png';
 
 export default {
   twitter,
@@ -16,5 +17,6 @@ export default {
   facebook,
   tiktok,
   youtube,
+  logoedei,
 
 };
