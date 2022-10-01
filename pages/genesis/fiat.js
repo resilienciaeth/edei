@@ -59,7 +59,7 @@ const fiat = () => (
           </p>
           <p className="text-black font-bold text-sm">N. Cuenta:ES5500810076360006567664 </p>
           <p className="text-black font-bold">BIC: BSABESBB </p>
-          <p className="px-[3rem] text-sm text-center mb-10 text-black">375€, o el multiplicar por la cantidad de Edeidades que desees obtener.</p>
+          <p className="px-[3rem] text-sm text-center mb-10 text-black">375€, o multiplicar por la cantidad de Edeidades que desees obtener.</p>
         </div>
         <button className="font-orkney edei-2 rounded-2xl border-2  nm:flex hidden nm:px-[5rem] px-[3rem] py-[2rem] text-white text-xl nm:text-3xl uppercase " onClick={() => window.open('https://buy.stripe.com/fZe5n13TU9qTgMM5kw')}>
           Adquirir EDEIDAD
@@ -100,7 +100,7 @@ const fiat = () => (
         </p>
         <p className="text-white font-bold text-sm">N. Cuenta:ES5500810076360006567664 </p>
         <p className="text-white font-bold">BIC: BSABESBB </p>
-        <p className="px-[3rem] text-sm text-center mb-10 text-white">375€, o el multiplicar por la cantidad de Edeidades que desees obtener.</p>
+        <p className="px-[3rem] text-sm text-center mb-10 text-white">375€, o multiplicar por la cantidad de Edeidades que desees obtener.</p>
         <button className="font-orkney edei-1 text-center flex nm:hidden nm:px-[5rem] mb-10 px-[3rem] text-white text-xl border-2 py-[2rem] rounded-2xl  nm:text-6xl uppercase " onClick={() => window.open('https://buy.stripe.com/fZe5n13TU9qTgMM5kw')}>
           ADQUIRIR EDEIDAD
         </button>
