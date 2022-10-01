@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Image from 'next/image';
-import images from '../public/assets';
+import images from '../../public/assets';
 import ReactPlayer from 'react-player';
 import YouTube from 'react-youtube';
 
@@ -51,6 +51,16 @@ const fiat = () => (
     <div className="flex edei-1 flex-col nm:flex-row">
       {/* Lado izquierdo desktop */}
       <div id="medium" className="nm:w-[50%] h-screen flex-col flex justify-start nm:items-center nm:justify-center items-center ">
+        <div className="nm:flex flex-col items-center hidden">
+          <p className="text-black text-sm px-[3rem] text-center">
+            <span className="font-bold">*IMPORTANTE:</span>
+            {' '}
+            Si quieres acceder cómo HOLDER OG y pagar sin IVA puedes realizar una transferencia bancaria a nombre de ERNEST VINAS a:
+          </p>
+          <p className="text-black font-bold text-sm">N. Cuenta:ES5500810076360006567664 </p>
+          <p className="text-black font-bold">BIC: BSABESBB </p>
+          <p className="px-[3rem] text-sm text-center mb-10 text-black">375€, o el multiplicar por la cantidad de Edeidades que desees obtener.</p>
+        </div>
         <button className="font-orkney edei-2 rounded-2xl border-2  nm:flex hidden nm:px-[5rem] px-[3rem] py-[2rem] text-white text-xl nm:text-3xl uppercase " onClick={() => window.open('https://buy.stripe.com/fZe5n13TU9qTgMM5kw')}>
           Adquirir EDEIDAD
         </button>
@@ -83,6 +93,14 @@ const fiat = () => (
       </div>
       {/* parte baja mobile */}
       <div id="medium" className="w-full h-screen nm:hidden flex flex-col justify-center items-center edei-2">
+        <p className="text-white text-sm px-[3rem] text-center">
+          <span className="font-bold">*IMPORTANTE:</span>
+          {' '}
+          Si quieres acceder cómo HOLDER OG y pagar sin IVA puedes realizar una transferencia bancaria a nombre de ERNEST VINAS a:
+        </p>
+        <p className="text-white font-bold text-sm">N. Cuenta:ES5500810076360006567664 </p>
+        <p className="text-white font-bold">BIC: BSABESBB </p>
+        <p className="px-[3rem] text-sm text-center mb-10 text-white">375€, o el multiplicar por la cantidad de Edeidades que desees obtener.</p>
         <button className="font-orkney edei-1 text-center flex nm:hidden nm:px-[5rem] mb-10 px-[3rem] text-white text-xl border-2 py-[2rem] rounded-2xl  nm:text-6xl uppercase " onClick={() => window.open('https://buy.stripe.com/fZe5n13TU9qTgMM5kw')}>
           ADQUIRIR EDEIDAD
         </button>

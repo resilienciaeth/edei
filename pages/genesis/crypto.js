@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Image from 'next/image';
-import images from '../public/assets';
+import images from '../../public/assets';
 import ReactPlayer from 'react-player';
 import YouTube from 'react-youtube';
 
