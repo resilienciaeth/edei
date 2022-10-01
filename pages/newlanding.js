@@ -12,8 +12,8 @@ const newlanding = () => (
       {/* banner */}
       <div className="px-6 nm:px-[10rem]">
         <div className="bg-edei-11 rounded-3xl nm:rounded-[3rem] border-4 nm:border-8 px-4 nm:px-10 ">
-          <h1 className="uppercase text-center nm:text-xl mt-4 font-bold">EDEI is a purposed nft culture of disruptors, entrepreneurs and investors around 3333 edeities ip.</h1>
-          <p className="mt-4 nm:mt-10 text-base text-center mb-4 nm:text-2xl nm:px-12">An Edeity is a drawn character representing one of the 333 most important things in life to live free from mainstream thinking, money and time.</p>
+          <h1 className="uppercase text-black text-center nm:text-xl mt-4 font-bold">EDEI is a purposed nft culture of disruptors, entrepreneurs and investors around 3333 edeities ip.</h1>
+          <p className="mt-4 text-black nm:mt-10 text-base text-center mb-4 nm:text-2xl nm:px-12">An Edeity is a drawn character representing one of the 333 most important things in life to live free from mainstream thinking, money and time.</p>
         </div>
       </div>
       {/* buttons */}
