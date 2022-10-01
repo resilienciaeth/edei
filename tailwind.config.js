@@ -33,6 +33,8 @@ module.exports = {
         'edei-200': '#9d8fd9',
         'edei-500': '#414141',
         'edei-700': '#000000',
+        'edei-10': '#2D244E',
+        'edei-11': '#D2CAFC',
 
       },
       width: {
