@@ -60,7 +60,7 @@ function Home() {
           </h1>
           <h1 className="flex nm:hidden mt-10 font-orkney font-bold text-white px-4 text-center">Genesis Presale para amigos de Ernest y Holders OG</h1>
           <div className="flex mt-[1.5rem] nm:hidden items-center text-edei-200 justify-center flex-col">
-            <ReactPlayer url="https://www.youtube.com/watch?v=b6nCwY0i1Mg" width={340} height={200} controls="controls" autoPlay="true" />
+            <ReactPlayer url="https://www.youtube.com/watch?v=susxOzM9k9U" width={340} height={200} controls="controls" autoPlay="true" />
           </div>
           <p className="text-white hidden nm:flex nm:text-sm px-4 text-sm mt-12 font-orkney w-full nm:px-[5rem]">EDEI es una comunidad de 3333 personas asociadas a la propiedad intelectual de 3333 Edeidades. Por cada Edeidad precomprada obtienes:</p>
           <p className="text-white font-bold hidden nm:flex nm:text-base px-4 text-sm mt-2 font-orkney w-full nm:px-[5rem]">
@@ -113,7 +113,7 @@ function Home() {
         </div>
         <div className="nm:w-[50%] space-y-5 hidden h-screen nm:flex flex-col justify-center items-center edei-1">
           <p className="text-sm  typing-demo">Este video es todo lo que necesitas para entender EDEI.</p>
-          <ReactPlayer url="https://www.youtube.com/watch?v=b6nCwY0i1Mg" width={600} height={300} controls="controls" autoPlay="true" />
+          <ReactPlayer url="https://www.youtube.com/watch?v=susxOzM9k9U" width={600} height={300} controls="controls" autoPlay="true" />
         </div>
         <div id="medium" className="w-full h-auto nm:hidden flex flex-col justify-center items-center edei-1 mt-[8rem]">
           <h1 className="font-orkney mt-[7rem]  flex nm:hidden nm:px-[5rem] mb-10 px-[3rem] w-full text-white text-2xl nm:text-6xl uppercase ">
