@@ -6,7 +6,7 @@ const newlanding = () => (
   <div className="h-screen bg-edei-10">
     <div className="flex items-center justify-start flex-col h-full">
       {/* title */}
-      <div className="nm:mt-6 mt-10 nm:hidden">
+      <div className="nm:mt-6 mt-10 nm:hidden flex">
         <Image src={images.logoedei} width={300} height={100} />
       </div>
       <div className="hidden nm:flex nm:mt-6 mt-10">
