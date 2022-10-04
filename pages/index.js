@@ -7,7 +7,7 @@ const newlanding = () => (
     <div className="flex items-center justify-start flex-col h-full">
       {/* title */}
       <div className="nm:mt-6 mt-10 nm:hidden">
-        <Image src={images.logoedei} width={250} height={100} />
+        <Image src={images.logoedei} width={300} height={100} />
       </div>
       <div className="hidden nm:flex nm:mt-6 mt-10">
         <Image src={images.logoedei} width={600} height={250} />
@@ -23,18 +23,18 @@ const newlanding = () => (
       <div className="flex flex-col items-center justify-center">
         <div className="mt-4 space-x-4 nm:space-x-10">
           <button
-            className="bg-white text-black py-3 px-3 nm:px-10 nm:py-4 rounded-3xl border nm:text-xl font-bold hover:text-white hover:border hover:bg-edei-10 hover:border-white"
+            className="bg-white text-black py-3 px-3 nm:px-10 nm:py-4 rounded-3xl border text-sm nm:text-xl font-bold hover:text-white hover:border hover:bg-edei-10 hover:border-white"
             onClick={() => window.open('https://youtu.be/LgbR_2yiqtQ')}
           >
-            ¿QUÉ ES EDEI?
+            MÁS SOBRE EDEI
 
           </button>
           <button
-            className="bg-white text-black py-3 px-3 nm:px-10 nm:py-4 rounded-3xl border nm:text-xl font-bold hover:text-white hover:border hover:bg-edei-10 hover:border-white"
+            className="bg-white text-black py-3 px-3 nm:px-10 nm:py-4 rounded-3xl border text-sm nm:text-xl font-bold hover:text-white hover:border hover:bg-edei-10 hover:border-white"
             onClick={() => window.open('https://www.youtube.com/watch?v=wNU_CU0nXpM')}
 
           >
-            WHAT IS EDEI?
+            MORE ABOUT EDEI
           </button>
         </div>
         <p className="text-center text-[0.5rem] text-[12px] mt-2 text-white px-10">UTILITY WILL BE ANNOUNCED WHEN THE OFFICIAL WEBSITE EXPERIENCE IS LAUNCHED.</p>
@@ -45,7 +45,7 @@ const newlanding = () => (
         <p className="text-edei-11 font-bold text-center text-xs nm:text-sm px-5">ALREADY PRESOLDOUT 5% OUT OF THE 3333 UNIQUE EDEITIES MADE IN FOUNDER COMMUNITY GENESIS PRESALE</p>
       </div>
       {/* Icons */}
-      <div className="mt-10 space-x-2 nm:space-x-6 flex flex-row">
+      <div className="mt-10 mb-10 space-x-2 nm:space-x-6 flex flex-row">
         <div>
           <Image src={images.twitter1} width={30} height={30} onClick={() => window.open('https://twitter.com/edeiNFT')} className="cursor-pointer" />
         </div>

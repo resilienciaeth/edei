@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar';
 class MyDocument extends Document {
   render() {
     return (
-      <Html className="">
+      <Html className="bg-edei-10">
         <Head>
           <link
             href="https://fonts.googleapis.com/css2?family=Inter&display=optional"

@@ -4,22 +4,17 @@ import Image from 'next/image';
 import ReactPlayer from 'react-player';
 import YouTube from 'react-youtube';
 import React, { useEffect } from 'react';
-import countdown from '../../components/Countdown';
 
 import images from '../../public/assets';
 
 import 'aos/dist/aos.css';
-import Aos from 'aos';
 import Countdown from '../../components/Countdown';
 
 function Home() {
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
   return (
     <div className="w-screen ">
       <nav className="flexBetween bg-transparent w-full edei-2 font-kooka z-10 p-4 sm:p-2 flex-row ">
-        <div className="nm:text-6xl text-3xl nm:ml-[10rem] ml-2 text-white cursor-pointer " onClick={() => '/'}>EDEI</div>
+        <Image className="nm:text-6xl text-3xl nm:ml-[10rem] ml-2 text-white cursor-pointer " src={images.logoedei} width={100} height={40} onClick={() => '/'} />
         <div className="flex flex-row nm:space-x-[3rem] space-x-4 nm:mr-[10rem]">
           <p
             className="hidden cursor-pointer nm:flex text-edei-200"
@@ -63,7 +58,8 @@ function Home() {
               <span className="relative text-black font-bold ">BIENVENIDO A EDEI</span>
             </span>
           </h1>
-          <div className="flex mt-[4rem] nm:hidden items-center text-edei-200 justify-center flex-col">
+          <h1 className="flex nm:hidden mt-10 font-orkney font-bold text-white px-4 text-center">Genesis Presale para amigos de Ernest y Holders OG</h1>
+          <div className="flex mt-[1.5rem] nm:hidden items-center text-edei-200 justify-center flex-col">
             <ReactPlayer url="https://www.youtube.com/watch?v=b6nCwY0i1Mg" width={340} height={200} controls="controls" autoPlay="true" />
           </div>
           <p className="text-white hidden nm:flex nm:text-sm px-4 text-sm mt-12 font-orkney w-full nm:px-[5rem]">EDEI es una comunidad de 3333 personas asociadas a la propiedad intelectual de 3333 Edeidades. Por cada Edeidad precomprada obtienes:</p>
@@ -91,7 +87,7 @@ function Home() {
             </button>
           </div>
           <svg
-            className="arrows flex nm:hidden cursor-pointer"
+            className="arrows mt-4 flex nm:hidden cursor-pointer"
             handleClick={() => document.getElementById('medium').scrollIntoView({ behavior: 'smooth' })}
           >
             <path className="a1" d="M0 0 L30 32 L60 0" onClick={() => document.getElementById('medium').scrollIntoView({ behavior: 'smooth' })} />
