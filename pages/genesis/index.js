@@ -81,7 +81,10 @@ function Home() {
             <button className="bg-gradient-to-r from-edei-100 to-edei-200 hover:from-white hover:to-white text-black font-orkney text-center font-bold px-7 nm:px-4 py-4 w-full nm:w-auto  border-2 hover:border-edei-200 rounded-lg" onClick={() => window.open('/genesis/fiat')}>
               ACCEDER A EDEI (EUROS)
             </button>
-            <button className="bg-gradient-to-r from-edei-100 to-edei-200 hover:from-white hover:to-white text-black font-orkney font-bold text-center px-4 py-4 border-2 w-full nm:w-auto hover:border-edei-200 rounded-lg" onClick={() => window.open('/crypto')}>
+            <button
+              className="bg-gradient-to-r from-edei-100 to-edei-200 hover:from-white hover:to-white text-black font-orkney font-bold text-center px-4 py-4 border-2 w-full nm:w-auto hover:border-edei-200 rounded-lg"
+              onClick={() => window.open('/genesis/crypto')}
+            >
               ACCEDER A EDEI (CRYPTO)
 
             </button>
@@ -129,7 +132,7 @@ function Home() {
             <button className="bg-gradient-to-r text-white hover:text-black from-edei-500 to-edei-700 hover:from-white hover:to-white font-orkney text-center px-7 nm:px-4 py-4 w-full  border-2 hover:border-edei-200 rounded-lg" onClick={() => window.open('/genesis/fiat')}>
               ACCEDER A EDEI (EUROS)
             </button>
-            <button className="bg-gradient-to-r text-white hover:text-black from-edei-500 to-edei-700 hover:from-white hover:to-white font-orkney text-center px-4 py-4 border-2 w-full hover:border-edei-200 rounded-lg" onClick={() => window.open('/crypto')}>
+            <button className="bg-gradient-to-r text-white hover:text-black from-edei-500 to-edei-700 hover:from-white hover:to-white font-orkney text-center px-4 py-4 border-2 w-full hover:border-edei-200 rounded-lg" onClick={() => window.open('/genesis/crypto')}>
               ACCEDER A EDEI (CRYPTO)
             </button>
           </div>
