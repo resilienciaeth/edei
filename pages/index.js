@@ -64,6 +64,9 @@ const newlanding = () => (
         <div>
           <Image src={images.youtube} width={30} height={30} onClick={() => window.open('https://www.youtube.com/channel/UCF31zf1WWzDzflJzURP1SCw')} className="cursor-pointer" />
         </div>
+        <div>
+          <Image src={images.linkedin} width={30} height={30} onClick={() => window.open('https://www.linkedin.com/company/83480209')} className="cursor-pointer" />
+        </div>
       </div>
     </div>
   </div>

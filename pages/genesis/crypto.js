@@ -93,7 +93,7 @@ const crypto = () => (
       </div>
       {/* parte baja mobile */}
       <div id="medium" className="w-full h-screen nm:hidden flex flex-col justify-center items-center edei-2">
-        <h1 className="font-orkney text-center flex nm:hidden nm:px-[5rem] px-0 mb-10 w-full text-white text-2xl nm:text-6xl ">
+        <h1 className="font-orkney text-center flex nm:hidden nm:px-[5rem] px-2 mb-10 w-full text-white text-2xl nm:text-6xl ">
           {' '}
           <span className="before:block before:absolute before:-inset-2 before:-skew-y-2 before:bg-gradient-to-r from-edei-100 to-edei-200 relative inline-block">
             <span className="relative text-black font-bold text-xs ">

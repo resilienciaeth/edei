@@ -7,6 +7,7 @@ import facebook from './facebook.png';
 import tiktok from './tiktok.png';
 import youtube from './youtube.png';
 import logoedei from './logoedei.png';
+import linkedin from './linkedin.png';
 
 export default {
   twitter,
@@ -18,5 +19,6 @@ export default {
   tiktok,
   youtube,
   logoedei,
+  linkedin,
 
 };
