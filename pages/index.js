@@ -42,7 +42,7 @@ const newlanding = () => (
       {/* WEBUILDING */}
       <div>
         <h1 className="text-center text-white mt-5 text-xl nm:text-4xl font-bold">EXPECT THE UNEXPECTED #WEBUILDING2023</h1>
-        <p className="text-edei-11 font-bold text-center text-xs nm:text-sm px-5">ALREADY PRESOLDOUT 5% OUT OF THE 3333 UNIQUE EDEITIES MADE IN FOUNDER COMMUNITY GENESIS PRESALE</p>
+        <p className="text-edei-11 font-bold text-center text-xs nm:text-sm px-5 uppercase">5% Out of 3333 handcrafter edeities were already sold inside the founder's community in the genesis pre-sale.</p>
       </div>
       {/* Icons */}
       <div className="mt-10 mb-10 space-x-2 nm:space-x-6 flex flex-row">
