@@ -6,6 +6,10 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  images: {
+    loader: 'cloudinary',
+    path: 'https://res.cloudinary.com/drxuutjwr',
+  },
 };
 const withFonts = require('next-fonts');
 

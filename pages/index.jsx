@@ -1,16 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
-import images from '../public/assets';
 
 const newlanding = () => (
   <div className="h-screen bg-edei-10">
     <div className="flex items-center justify-start flex-col h-full">
       {/* title */}
       <div className="nm:mt-6 mt-10 nm:hidden flex">
-        <Image src={images.logoedei} width={300} height={100} />
+        <Image src="/v1666127672/logoedei_fzwefz.png" width={300} height={100} />
       </div>
       <div className="hidden nm:flex nm:mt-6 mt-10">
-        <Image src={images.logoedei} width={600} height={250} />
+        <Image src="/v1666127672/logoedei_fzwefz.png" width={600} height={250} />
       </div>
       {/* banner */}
       <div className="px-6 nm:px-[10rem] mt-5 nm:mt-10">
@@ -23,6 +22,7 @@ const newlanding = () => (
       <div className="flex flex-col items-center justify-center">
         <div className="mt-4 space-x-4 nm:space-x-10">
           <button
+            type="submit"
             className="bg-white text-black py-3 px-3 nm:px-10 nm:py-4 rounded-3xl border text-sm nm:text-xl font-bold hover:text-white hover:border hover:bg-edei-10 hover:border-white"
             onClick={() => window.open('https://youtu.be/LgbR_2yiqtQ')}
           >
@@ -30,6 +30,7 @@ const newlanding = () => (
 
           </button>
           <button
+            type="submit"
             className="bg-white text-black py-3 px-3 nm:px-10 nm:py-4 rounded-3xl border text-sm nm:text-xl font-bold hover:text-white hover:border hover:bg-edei-10 hover:border-white"
             onClick={() => window.open('https://www.youtube.com/watch?v=wNU_CU0nXpM')}
 
@@ -37,7 +38,7 @@ const newlanding = () => (
             MORE ABOUT EDEI
           </button>
         </div>
-        <p className="text-center text-[0.5rem] text-[12px] mt-2 text-white px-10">UTILITY WILL BE ANNOUNCED WHEN THE OFFICIAL WEBSITE EXPERIENCE IS LAUNCHED.</p>
+        <p className="text-center text-[12px] mt-2 text-white px-10">UTILITY WILL BE ANNOUNCED WHEN THE OFFICIAL WEBSITE EXPERIENCE IS LAUNCHED.</p>
       </div>
       {/* WEBUILDING */}
       <div>
@@ -47,25 +48,25 @@ const newlanding = () => (
       {/* Icons */}
       <div className="mt-10 mb-10 space-x-2 nm:space-x-6 flex flex-row">
         <div>
-          <Image src={images.twitter1} width={30} height={30} onClick={() => window.open('https://twitter.com/edeiNFT')} className="cursor-pointer" />
+          <Image src="/v1666127672/twitter1_d0msoy.png" width={30} height={30} onClick={() => window.open('https://twitter.com/edeiNFT')} className="cursor-pointer" />
         </div>
         <div>
-          <Image src={images.discord} width={30} height={30} onClick={() => window.open('https://discord.gg/eyZAxExT')} className="cursor-pointer" />
+          <Image src="/v1666127672/discord_bmzkng.png" width={30} height={30} onClick={() => window.open('https://discord.gg/eyZAxExT')} className="cursor-pointer" />
         </div>
         <div>
-          <Image src={images.facebook} width={30} height={30} onClick={() => window.open('')} className="cursor-pointer" />
+          <Image src="/v1666127672/facebook_ifsn2c.png" width={30} height={30} onClick={() => window.open('')} className="cursor-pointer" />
         </div>
         <div>
-          <Image src={images.instagram1} width={30} height={30} onClick={() => window.open('https://www.instagram.com/edei.io/')} className="cursor-pointer" />
+          <Image src="/v1666127672/instagram1_d6oogr.png" width={30} height={30} onClick={() => window.open('https://www.instagram.com/edei.io/')} className="cursor-pointer" />
         </div>
         <div>
-          <Image src={images.tiktok} width={30} height={30} onClick={() => window.open('https://www.tiktok.com/@edei.io')} className="cursor-pointer" />
+          <Image src="/v1666127672/tiktok_hv1ufu.png" width={30} height={30} onClick={() => window.open('https://www.tiktok.com/@edei.io')} className="cursor-pointer" />
         </div>
         <div>
-          <Image src={images.youtube} width={30} height={30} onClick={() => window.open('https://www.youtube.com/channel/UCF31zf1WWzDzflJzURP1SCw')} className="cursor-pointer" />
+          <Image src="/v1666127672/youtube_mp1ch7.png" width={30} height={30} onClick={() => window.open('https://www.youtube.com/channel/UCF31zf1WWzDzflJzURP1SCw')} className="cursor-pointer" />
         </div>
         <div>
-          <Image src={images.linkedin} width={30} height={30} onClick={() => window.open('https://www.linkedin.com/company/83480209')} className="cursor-pointer" />
+          <Image src="/v1666127672/linkedin_pheiqd.png" width={30} height={30} onClick={() => window.open('https://www.linkedin.com/company/83480209')} className="cursor-pointer" />
         </div>
       </div>
     </div>
