@@ -17,6 +17,7 @@
     "ethers": "5.5.4",
     "hardhat": "2.9.0",
     "ipfs-http-client": "56.0.1",
+    "netlify-plugin-cloudinary": "^1.2.0",
     "next": "12.1.0",
     "next-fonts": "^1.5.1",
     "next-themes": "0.1.1",
